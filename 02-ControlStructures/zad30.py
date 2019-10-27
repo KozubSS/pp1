@@ -4,6 +4,6 @@ for i in range(3):
         break
     else:
         print('Nieprawidłowy PIN')
-    if i == 2:
-        print('Karta zablokowana')
+    if i == 3:
+        print('Karta płatnicza zostaje zablokowana')
         
