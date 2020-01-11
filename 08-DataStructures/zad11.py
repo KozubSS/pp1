@@ -1,10 +1,10 @@
 from GBP import GBP
 
-print('Data\t\t Kurs')
+print(f'Data\t\tKurs')
 print('----------------------------')
 
 for k in GBP['rates']:
-    print(f'k['effectiveDate']:10,'\t',k['mid'])
+    print(k['effectiveDate'],'\t   ',k['mid'])
     
     
     
